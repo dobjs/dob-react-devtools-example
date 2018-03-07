@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": false,
+    "strictNullChecks": false,
+    "jsx": "react",
+    "target": "esnext",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "lib": [
+      "dom",
+      "es5",
+      "es6",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "built",
+    "lib"
+  ]
+}

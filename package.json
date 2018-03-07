@@ -1,0 +1,30 @@
+{
+  "name": "dob-react-devtools-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pri",
+    "build": "pri build",
+    "preview": "pri preview",
+    "deploy": "pri build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dobjs/dob-react-devtools-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dobjs/dob-react-devtools-example/issues"
+  },
+  "homepage": "https://github.com/dobjs/dob-react-devtools-example#readme",
+  "dependencies": {
+    "dob-react-devtools": "^1.1.1",
+    "pri": "^0.2.17"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
